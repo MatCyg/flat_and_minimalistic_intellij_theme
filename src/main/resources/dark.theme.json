@@ -1,0 +1,17 @@
+{
+  "name": "dark",
+  "dark": true,
+  "author": "Mateusz Cygert",
+  "editorScheme": "/dark.xml",
+  "ui": {
+    "*": {
+      "background": "#212121"
+    },
+    "Borders": {
+      "color": "border",
+      "ContrastBorderColor": "border"
+    },
+    "StatusBar.borderColor": "border",
+    "ToolWindow.Header.inactiveBackground": "panel"
+  }
+}

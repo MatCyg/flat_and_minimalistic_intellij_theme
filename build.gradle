@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.intellij' version '1.2.0'
+}
+
+group 'com.mc'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+intellij {
+    updateSinceUntilBuild = false
+    version = '2021.1'
+}
+patchPluginXml {
+    changeNotes = """
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>"""
+}
+test {
+    useJUnitPlatform()
+}

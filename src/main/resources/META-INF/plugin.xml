@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>io.cygert.theme</id>
+    <name>Flat Minimalistic Theme</name>
+    <version>1.0</version>
+    <vendor email="matcyg@gmail.com">Mateusz Cygert</vendor>
+
+    <description>This is flat minimalistic theme for IntelliJ that contains gray and dark version.</description>
+
+    <change-notes>This is the initial release of the plugin.</change-notes>
+
+    <idea-version since-build="211"/>
+
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="87f246e7-556b-4b3f-a97f-c1aee290ffdd" path="/gray.theme.json"/>
+        <themeProvider id="c20a342f-7402-4d9b-a9be-39cd710c3d15" path="/dark.theme.json"/>
+    </extensions>
+
+    <actions>
+    </actions>
+
+</idea-plugin>
