@@ -24,7 +24,7 @@
       "ContrastBorderColor": "border"
     },
     "Button": {
-      "shadowColor": "#ff0d29ff",
+      "shadowColor": "#A6A6A620",
       "startBorderColor": "componentBorder",
       "endBorderColor": "componentBorder",
       "default": {

@@ -2,9 +2,9 @@
     <id>io.cygert.theme</id>
     <name>Flat Minimalistic Theme</name>
     <version>1.0</version>
-    <vendor email="matcyg@gmail.com">Mateusz Cygert</vendor>
+    <vendor email="mat@cygert.io">Mat Cygert</vendor>
 
-    <description>This is flat minimalistic theme for IntelliJ that contains gray and dark version.</description>
+    <description>This is flat minimalistic theme for IntelliJ containing gray and dark version.</description>
 
     <change-notes>This is the initial release of the plugin.</change-notes>
 
