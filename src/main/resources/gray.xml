@@ -39,6 +39,11 @@
                 <option name="FOREGROUND" value="a800a3"/>
             </value>
         </option>
+        <option name="DEFAULT_TAG">
+            <value>
+                <option name="BACKGROUND" value="e7e7e7" />
+            </value>
+        </option>
         <option name="DEFAULT_LOCAL_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="3c3c3c"/>

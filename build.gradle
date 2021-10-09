@@ -12,7 +12,7 @@ repositories {
 
 intellij {
     updateSinceUntilBuild = false
-    version = '2021.1'
+    version = '2021.2.2'
 }
 patchPluginXml {
     changeNotes = """

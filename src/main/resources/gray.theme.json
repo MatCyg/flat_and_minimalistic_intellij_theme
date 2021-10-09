@@ -12,6 +12,7 @@
       "disabledForeground": "#8C8C8C",
       "disabledText": "#8C8C8C",
       "inactiveForeground": "#8C8C8C",
+      "inactiveBackground": "#e8e8e8",
       "infoForeground": "#808080",
       "modifiedItemForeground": "#005ad9",
       "acceleratorSelectionForeground": "white",
@@ -23,7 +24,7 @@
       "ContrastBorderColor": "border"
     },
     "Button": {
-      "shadowColor": "#A6A6A620",
+      "shadowColor": "#ff0d29ff",
       "startBorderColor": "componentBorder",
       "endBorderColor": "componentBorder",
       "default": {
@@ -49,6 +50,10 @@
     "Component.borderColor": "componentBorder",
     "DefaultTabs.background": "panel",
     "EditorTabs.underlinedTabBackground": "#ffffff",
+    "EditorTabs": {
+      "background": "#e8e8e8",
+      "underlinedTabBackground": "#D5D5D5"
+    },
     "Editor": {
       "background": "#cccccc",
       "foreground": "#737373",
@@ -78,9 +83,20 @@
       "indeterminateStartColor": "#91C5F2",
       "indeterminateEndColor": "#1E82E6"
     },
+    "ToolWindow.Header.background": "#D1D1D1",
     "StatusBar.borderColor": "border",
-    "ToolWindow.Header.inactiveBackground": "panel",
-    "Tree.rowHeight": 20
+    "Tree.rowHeight": 20,
+    "ToolWindow": {
+      "HeaderTab": {
+        "hoverBackground": "#D5D5D5",
+        "selectedInactiveBackground": "#D5D5D5",
+        "hoverInactiveBackground": "#D5D5D5"
+      },
+      "Button": {
+        "selectedBackground": "#D5D5D5",
+        "hoverBackground": "#D5D5D5"
+      }
+    }
   },
   "icons": {
     "ColorPalette": {
