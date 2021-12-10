@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'io.cygert'
-version '1.0'
+version '1.1'
 
 repositories {
     mavenCentral()
@@ -16,7 +16,7 @@ intellij {
 }
 patchPluginXml {
     changeNotes = """
-      Initial release"""
+      1.1 Add 'FlatAndMinimalistic' prefix to themes name."""
 }
 test {
     useJUnitPlatform()

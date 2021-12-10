@@ -1,7 +1,7 @@
 {
-  "name": "dark",
+  "name": "FlatAndMinimalistic - dark",
   "dark": true,
-  "author": "Mateusz Cygert",
+  "author": "Mat Cygert",
   "editorScheme": "/dark.xml",
   "ui": {
     "*": {

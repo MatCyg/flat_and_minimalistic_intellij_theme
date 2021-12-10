@@ -1,14 +1,13 @@
 {
-  "name": "gray",
+  "name": "FlatAndMinimalistic - gray",
   "dark": false,
-  "author": "Mateusz Cygert",
+  "author": "Mat Cygert",
   "editorScheme": "/gray.xml",
   "ui": {
     "*": {
       "background": "#e8e8e8",
       "selectionBackground": "#2675BF",
       "selectionBackgroundInactive": "#D5D5D5",
-      "selectionInactiveBackground": "#D5D5D5",
       "disabledForeground": "#8C8C8C",
       "disabledText": "#8C8C8C",
       "inactiveForeground": "#8C8C8C",
