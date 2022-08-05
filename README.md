@@ -1,0 +1,1 @@
+Flat and minimalistic IntelliJ theme featuring gray and dark theme. [See more on Jetbrains plugin page.](https://plugins.jetbrains.com/plugin/17749-flat-minimalistic-theme) 
