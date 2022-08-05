@@ -5,7 +5,8 @@
   "editorScheme": "/dark.xml",
   "ui": {
     "*": {
-      "background": "#212121"
+      "background": "#212121",
+      "inactiveBackground": "#212121"
     },
     "Borders": {
       "color": "border",
