@@ -3,63 +3,46 @@
     "author": "Mat Cygert",
 	"variables":
 	{
+		"background": "#e8e8e8",
 		"black": "#000000",
         "comment-gray": "#808080",
         "string-green": "#008000",
         "number-strongblue": "#0000FF",
         "keyword-blue": "#000080",
-
         "field-purple": "#660E7A",
-        "foreground": "#193991",
         "annotation-darkyellow": "#808000",
         "parameter-red": "#AB2727",
         "error-strongred": "#FF0000",
         "lightblue": "#0073BF",
 
-		"blue": "hsl(210, 50%, 60%)",
-		"blue-vibrant": "hsl(210, 60%, 60%)",
-		"blue2": "hsl(180, 36%, 54%)",
-		"green": "hsl(114, 31%, 60%)",
-		"grey": "hsl(0, 0%, 73%)",
-		"grey2": "hsl(0, 0%, 60%)",
-		"grey3": "hsl(0, 0%, 20%)",
-		"orange": "hsl(32, 93%, 66%)",
-		"orange2": "hsl(32, 85%, 55%)",
-		"orange3": "hsl(40, 94%, 68%)",
-		"pink": "hsl(300, 30%, 68%)",
-		"red": "hsl(357, 79%, 65%)",
-		"red2": "hsl(13, 93%, 66%)",
-		"red3": "hsl(16, 29%, 54%)",
-		"white5": "#e8e8e8",
-		"white2": "hsl(210, 11%, 85%)",
-		"white3": "hsla(204, 10%, 86%, 0.7)",
-		"white4": "hsl(195, 11%, 93%)",
-		"white5": "hsl(180, 9%, 99%)"
+        "diff-added": "#C5E5C1",
+        "diff-removed": "#D6D6D6",
+        "diff-changed": "#CDD8F7"
 	},
 	"globals": {
 		"foreground": "var(black)",
-		"background": "#e8e8e8",
-		"accent": "var(blue-vibrant)",
+		"background": "var(background)",
+		"accent": "var(lightblue)",
 		"caret": "#F62F77",
-		"block_caret": "color(var(white3) a(0.5))",
+		"block_caret": "#F62F77",
 		"line_highlight": "#D4D4D4",
 		"selection": "#5974AB",
 		"selection_border": "#5974AB",
 		"selection_foreground": "#FFFFFF",
 		"inactive_selection": "#5974AB",
 		"misspelling": "var(error-strongred)",
-		"shadow": "var(grey)",
-		"active_guide": "var(blue2)",
-		"stack_guide": "color(var(blue2) alpha(0.5))",
-		"highlight": "var(blue2)",
+		"shadow": "#bababa",
+		"active_guide": "#5fb4b4",
+		"stack_guide": "#5fb4b480",
+		"highlight": "#FF0000",
 		"find_highlight_foreground": "var(black)",
 		"find_highlight": "#FFFF00",
 		"brackets_options": "underline",
-		"brackets_foreground": "var(orange)",
+		"brackets_foreground": "var(diff-changed)",
 		"bracket_contents_options": "underline",
-		"bracket_contents_foreground": "var(blue2)",
+		"bracket_contents_foreground": "var(lightblue)",
 		"tags_options": "stippled_underline",
-		"tags_foreground": "var(pink)"
+		"tags_foreground": "#FF0000"
 	},
 	"rules":
 	[
@@ -121,7 +104,7 @@
 		{
 			"name": "Accessor",
 			"scope": "punctuation.accessor",
-			"foreground": "#193991"
+			"foreground": "var(black)"
 		},
 		{
 			"name": "Annotation",
@@ -268,7 +251,8 @@
         {
         	"name": "markup links",
         	"scope": "string.other.link, markup.underline.link",
-        	"foreground": "#FF0000"
+        	"foreground": "var(black)",
+        	"font_style": "italic"
         },
         {
         	"name": "markup bold",
@@ -323,12 +307,12 @@
         {
         	"name": "markup code",
         	"scope": "markup.raw",
-        	"background": "color(var(white3) alpha(0.38))"
+        	"background": "#FF0000"
         },
         {
         	"name": "markup code",
         	"scope": "markup.raw.inline",
-        	"background": "color(var(white3) alpha(0.5))"
+        	"background": "#FF0000"
         },
         {
         	"name": "markup punctuation",
@@ -338,35 +322,36 @@
         {
         	"name": "diff.header",
         	"scope": "meta.diff, meta.diff.header",
-        	"foreground": "var(pink)"
+        	"foreground": "var(black)"
         },
         {
         	"name": "diff.deleted",
         	"scope": "markup.deleted",
-        	"foreground": "var(red)"
+        	"background": "var(diff-removed)"
         },
         {
         	"name": "diff.inserted",
         	"scope": "markup.inserted",
-        	"foreground": "var(green)"
+        	"background": "var(diff-added)"
         },
         {
         	"name": "diff.changed",
         	"scope": "markup.changed",
-        	"foreground": "var(orange)"
+        	"foreground": "var(diff-changed)"
         },
         {
         	"name": "CSS Properties",
         	"scope": "support.type.property-name",
-        	"foreground": "var(grey3)"
+        	"foreground": "var(number-strongblue)",
+        	"font_style": "bold"
         },
         {
         	"scope": "constant.numeric.line-number.match",
-        	"foreground": "var(red)"
+        	"foreground": "var(error-strongred)"
         },
         {
         	"scope": "message.error",
-        	"foreground": "var(red)"
+        	"foreground": "var(error-strongred)"
         },
 
         {
