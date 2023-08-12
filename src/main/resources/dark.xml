@@ -394,5 +394,26 @@
         <option name="XML_TAG" baseAttributes="DEFAULT_TAG"/>
         <option name="XML_TAG_DATA" baseAttributes="TEXT"/>
         <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD"/>
+        <option name="BASH.VAR_DEF">
+            <value>
+                <option name="FOREGROUND" value="d2d2d2" />
+                <option name="BACKGROUND" value="1e1e1e" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
+        <option name="BASH.VAR_USE">
+            <value>
+                <option name="FOREGROUND" value="d2d2d2" />
+                <option name="BACKGROUND" value="1e1e1e" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
+        <option name="BASH.VAR_USE_COMPOSED">
+            <value>
+                <option name="FOREGROUND" value="d2d2d2" />
+                <option name="BACKGROUND" value="1e1e1e" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
     </attributes>
 </scheme>
