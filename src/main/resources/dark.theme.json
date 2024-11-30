@@ -13,6 +13,40 @@
       "ContrastBorderColor": "border"
     },
     "StatusBar.borderColor": "border",
-    "ToolWindow.Header.inactiveBackground": "panel"
+    "ToolWindow.Header.inactiveBackground": "panel",
+
+    "EditorTabs": {
+      "background": "#0C0C0C",
+      "hoverBackground": "#1A1A1B",
+      "hoverInactiveBackground": "#1A1A1B",
+      "inactiveColoredFileBackground": "#262626",
+      "underlinedTabBackground": "#262626"
+    },
+
+    "MainWindow.Tab" : {
+      "selectedBackground": "#1E1E1E",
+      "selectedInactiveBackground": "#1E1E1E",
+      "background": "#0C0C0C"
+    },
+    "Button": {
+      "arc": 0
+    },
+    "Component": {
+      "arc": 0
+    },
+    "Tree": {
+      "rowHeight": 20,
+      "rowHeight.compact": 20
+    },
+    "TabbedPane": {
+      "tabSelectionArc": 0
+    },
+    "GotItTooltip.arc": 0,
+    "Menu.Selection.arc": 0,
+    "Notification.arc": 0,
+    "Popup.Selection.arc": 0,
+    "PopupMenu.Selection.arc": 0,
+    "Tree.Selection.arc": 0,
+    "Popup.Selection.leftRightInset": 0
   }
 }

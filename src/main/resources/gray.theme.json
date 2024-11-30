@@ -48,10 +48,12 @@
     },
     "Component.borderColor": "componentBorder",
     "DefaultTabs.background": "panel",
-    "EditorTabs.underlinedTabBackground": "#ffffff",
     "EditorTabs": {
       "background": "#e8e8e8",
-      "underlinedTabBackground": "#D5D5D5"
+      "hoverBackground": "#FFFFFF",
+      "hoverInactiveBackground": "#FFFFFF",
+      "inactiveColoredFileBackground": "#FFFFFF",
+      "underlinedTabBackground": "#FFFFFF"
     },
     "Editor": {
       "background": "#cccccc",
@@ -95,7 +97,32 @@
         "selectedBackground": "#D5D5D5",
         "hoverBackground": "#D5D5D5"
       }
-    }
+    },
+    "MainWindow.Tab" : {
+      "selectedBackground": "#FFFFFF",
+      "selectedInactiveBackground": "#FFFFFF",
+      "background": "#E8E8E8",
+      "hoverBackground": "#FFFFFF"
+    },
+    "Button": {
+      "arc": 0
+    },
+    "Component": {
+      "arc": 0
+    },
+    "Tree": {
+      "rowHeight": 20,
+      "rowHeight.compact": 20
+    },
+    "TabbedPane": {
+      "tabSelectionArc": 0
+    },
+    "GotItTooltip.arc": 0,
+    "Menu.Selection.arc": 0,
+    "Notification.arc": 0,
+    "Popup.Selection.arc": 0,
+    "PopupMenu.Selection.arc": 0,
+    "Tree.Selection.arc": 0
   },
   "icons": {
     "ColorPalette": {

@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.intellij' version '1.2.0'
+    id 'org.jetbrains.intellij' version '1.17.3'
 }
 
 group 'io.cygert'
@@ -12,10 +12,11 @@ repositories {
 
 intellij {
     updateSinceUntilBuild = false
-    version = '2021.2.2'
+    version = '2024.1'
 }
 patchPluginXml {
     changeNotes = """
+      1.3 Change the new UI defaults to resemble the old UI. Fix inconsistencies in colors.
       1.2 In dark mode, align inactive window top bar color with the background to adhere to the minimalistic look
       1.1 Add 'FlatAndMinimalistic' prefix to themes name."""
 }
